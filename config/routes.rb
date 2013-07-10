@@ -1,4 +1,5 @@
-PhotogurCodeAlong::Application.routes.draw do
+#PhotogurCodeAlong::Application.routes.draw do
+Photogur::Application.routes.draw do
   resources :pictures
   root :to => "pictures#index"
 end
